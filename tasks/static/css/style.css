@@ -1,0 +1,19 @@
+body { font-family: "Cairo", sans-serif; background-color: #f4f6f8; margin:0; padding:20px; color:#333; }
+h1 { text-align:center; color:#0a74da; margin-bottom:30px; }
+.projects-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:25px; }
+.card { background:white; border-radius:15px; padding:20px; box-shadow:0 4px 12px rgba(0,0,0,0.1); transition:transform 0.2s ease, box-shadow 0.2s ease; }
+.card:hover { transform: translateY(-6px); box-shadow:0 8px 18px rgba(0,0,0,0.15); }
+.card h3 { color:#0a74da; margin-top:0; }
+.card p { color:#555; }
+.card a { display:inline-block; margin-right:10px; background-color:#0a74da; color:white; padding:6px 12px; border-radius:6px; text-decoration:none; font-size:0.9em; }
+.card a:hover { background-color:#005bb5; }
+
+.add-task-btn { display:inline-block; margin-bottom:20px; background:#0a74da; color:white; padding:10px 16px; border-radius:6px; text-decoration:none; }
+.add-task-btn:hover { background:#005bb5; }
+
+.confirm-box { max-width:400px; margin:auto; background:white; padding:20px; border-radius:12px; box-shadow:0 4px 12px rgba(0,0,0,0.1); text-align:center; }
+button { padding:10px 20px; border:none; border-radius:6px; cursor:pointer; font-weight:bold; margin:10px; }
+.cancel { background:#ccc; }
+.cancel:hover { background:#999; }
+.delete { background:#e74c3c; color:white; }
+.delete:hover { background:#c0392b; }
